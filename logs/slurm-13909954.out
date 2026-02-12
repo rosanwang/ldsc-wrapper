@@ -1,0 +1,1408 @@
+chr1
+making annot file
+chr2
+making annot file
+chr3
+making annot file
+chr4
+making annot file
+chr5
+making annot file
+chr6
+making annot file
+chr7
+making annot file
+chr8
+making annot file
+chr9
+making annot file
+chr10
+making annot file
+chr11
+making annot file
+chr12
+making annot file
+chr13
+making annot file
+chr14
+making annot file
+chr15
+making annot file
+chr16
+making annot file
+chr17
+making annot file
+chr18
+making annot file
+chr19
+making annot file
+chr20
+making annot file
+chr21
+making annot file
+chr22
+making annot file
+chr1
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.1 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.1 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.1.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 17:59:11 2025
+Read list of 778603 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.1.bim
+Read 1 annotations for 778603 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.1.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.1.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.1.bed
+After filtering, 778603 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 98576 SNPs will be printed.
+Writing LD Scores for 98576 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.1.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.1.l2.ldscore.gz
+         MAF       L2
+mean  0.2346   3.7302
+std   0.1432   3.9410
+min   0.0051  -0.1789
+25%   0.1084   1.1698
+50%   0.2239   2.5062
+75%   0.3558   4.9104
+max   0.5000  47.8655
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1946
+L2   0.1946  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    24997
+
+Summary of Annotation Matrix Row Sums
+count    778603.0000
+mean          0.0321
+std           0.1763
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 18:08:01 2025
+Total time elapsed: 8.0m:50.73s
+chr2
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.2 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.2 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.2.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 18:08:04 2025
+Read list of 839257 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.2.bim
+Read 1 annotations for 839257 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.2.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.2.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.2.bed
+After filtering, 839257 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 99718 SNPs will be printed.
+Writing LD Scores for 99718 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.2.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.2.l2.ldscore.gz
+         MAF       L2
+mean  0.2384   4.0178
+std   0.1431   3.6944
+min   0.0051  -0.2239
+25%   0.1125   1.4503
+50%   0.2290   2.9628
+75%   0.3620   5.4494
+max   0.5000  38.2719
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1849
+L2   0.1849  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    26330
+
+Summary of Annotation Matrix Row Sums
+count    839257.0000
+mean          0.0314
+std           0.1743
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 18:17:17 2025
+Total time elapsed: 9.0m:13.72s
+chr3
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.3 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.3 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.3.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 18:17:20 2025
+Read list of 706163 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.3.bim
+Read 1 annotations for 706163 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.3.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.3.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.3.bed
+After filtering, 706163 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 83015 SNPs will be printed.
+Writing LD Scores for 83015 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.3.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.3.l2.ldscore.gz
+         MAF       L2
+mean  0.2408   4.2983
+std   0.1426   4.8553
+min   0.0051  -0.2035
+25%   0.1166   1.3880
+50%   0.2321   2.9391
+75%   0.3630   5.5292
+max   0.5000  81.4437
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1893
+L2   0.1893  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    21624
+
+Summary of Annotation Matrix Row Sums
+count    706163.0000
+mean          0.0306
+std           0.1723
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 18:26:17 2025
+Total time elapsed: 8.0m:56.63s
+chr4
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.4 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.4 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.4.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 18:26:18 2025
+Read list of 729546 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.4.bim
+Read 1 annotations for 729546 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.4.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.4.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.4.bed
+After filtering, 729546 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 74922 SNPs will be printed.
+Writing LD Scores for 74922 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.4.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.4.l2.ldscore.gz
+         MAF       L2
+mean  0.2375   4.4786
+std   0.1422   5.0398
+min   0.0051  -0.2338
+25%   0.1125   1.5117
+50%   0.2301   3.0424
+75%   0.3579   5.7190
+max   0.5000  52.2785
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1584
+L2   0.1584  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    22496
+
+Summary of Annotation Matrix Row Sums
+count    729546.0000
+mean          0.0308
+std           0.1729
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 18:33:58 2025
+Total time elapsed: 7.0m:40.18s
+chr5
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.5 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.5 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.5.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 18:34:01 2025
+Read list of 632996 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.5.bim
+Read 1 annotations for 632996 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.5.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.5.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.5.bed
+After filtering, 632996 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 75164 SNPs will be printed.
+Writing LD Scores for 75164 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.5.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.5.l2.ldscore.gz
+         MAF        L2
+mean  0.2369    4.4516
+std   0.1421   14.0740
+min   0.0051   -0.4244
+25%   0.1125    1.2177
+50%   0.2280    2.5657
+75%   0.3569    4.8860
+max   0.5000  370.3622
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.0804
+L2   0.0804  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    18928
+
+Summary of Annotation Matrix Row Sums
+count    632996.0000
+mean          0.0299
+std           0.1703
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 18:42:55 2025
+Total time elapsed: 8.0m:54.36s
+chr6
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.6 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.6 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.6.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 18:43:00 2025
+Read list of 663678 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.6.bim
+Read 1 annotations for 663678 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.6.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.6.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.6.bed
+After filtering, 663678 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 75328 SNPs will be printed.
+Writing LD Scores for 75328 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.6.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.6.l2.ldscore.gz
+         MAF       L2
+mean  0.2357   4.5740
+std   0.1431   5.4367
+min   0.0051  -0.1555
+25%   0.1104   1.4382
+50%   0.2249   2.9883
+75%   0.3579   5.6824
+max   0.5000  69.6632
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1666
+L2   0.1666  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    20892
+
+Summary of Annotation Matrix Row Sums
+count    663678.0000
+mean          0.0315
+std           0.1746
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 18:55:25 2025
+Total time elapsed: 12.0m:24.93s
+chr7
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.7 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.7 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.7.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 18:55:28 2025
+Read list of 589044 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.7.bim
+Read 1 annotations for 589044 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.7.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.7.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.7.bed
+After filtering, 589044 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 66138 SNPs will be printed.
+Writing LD Scores for 66138 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.7.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.7.l2.ldscore.gz
+         MAF        L2
+mean  0.2390    4.6851
+std   0.1428   10.5025
+min   0.0051   -0.2002
+25%   0.1125    1.2598
+50%   0.2301    2.5926
+75%   0.3609    5.0296
+max   0.5000  232.9314
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.0915
+L2   0.0915  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    20332
+
+Summary of Annotation Matrix Row Sums
+count    589044.0000
+mean          0.0345
+std           0.1826
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:02:02 2025
+Total time elapsed: 6.0m:33.85s
+chr8
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.8 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.8 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.8.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:02:04 2025
+Read list of 549556 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.8.bim
+Read 1 annotations for 549556 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.8.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.8.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.8.bed
+After filtering, 549556 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 64928 SNPs will be printed.
+Writing LD Scores for 64928 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.8.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.8.l2.ldscore.gz
+         MAF        L2
+mean  0.2380    5.0699
+std   0.1431   12.3023
+min   0.0051   -0.6353
+25%   0.1115    1.4325
+50%   0.2280    2.9162
+75%   0.3609    5.5552
+max   0.5000  233.2954
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.0624
+L2   0.0624  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    17938
+
+Summary of Annotation Matrix Row Sums
+count    549556.0000
+mean          0.0326
+std           0.1777
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:08:50 2025
+Total time elapsed: 6.0m:45.28s
+chr9
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.9 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.9 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.9.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:08:51 2025
+Read list of 437825 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.9.bim
+Read 1 annotations for 437829 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.9.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.9.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.9.bed
+After filtering, 437825 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 55452 SNPs will be printed.
+Writing LD Scores for 55452 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.9.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.9.l2.ldscore.gz
+         MAF       L2
+mean  0.2359   3.0936
+std   0.1423   3.3124
+min   0.0051  -0.1554
+25%   0.1115   0.9883
+50%   0.2249   2.0596
+75%   0.3569   3.9800
+max   0.5000  69.7457
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1824
+L2   0.1824  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    12747
+
+Summary of Annotation Matrix Row Sums
+count    437825.0000
+mean          0.0291
+std           0.1681
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:14:36 2025
+Total time elapsed: 5.0m:44.98s
+chr10
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.10 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.10 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.10.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:14:39 2025
+Read list of 510396 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.10.bim
+Read 1 annotations for 510398 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.10.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.10.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.10.bed
+After filtering, 510396 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 64066 SNPs will be printed.
+Writing LD Scores for 64066 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.10.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.10.l2.ldscore.gz
+         MAF        L2
+mean  0.2328    4.9093
+std   0.1426   13.9963
+min   0.0051   -0.4761
+25%   0.1074    1.1736
+50%   0.2198    2.5720
+75%   0.3538    5.0010
+max   0.5000  296.0181
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.0387
+L2   0.0387  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    17322
+
+Summary of Annotation Matrix Row Sums
+count    510396.0000
+mean          0.0339
+std           0.1811
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:21:15 2025
+Total time elapsed: 6.0m:36.19s
+chr11
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.11 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.11 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.11.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:21:18 2025
+Read list of 493753 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.11.bim
+Read 1 annotations for 493753 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.11.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.11.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.11.bed
+After filtering, 493753 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 60969 SNPs will be printed.
+Writing LD Scores for 60969 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.11.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.11.l2.ldscore.gz
+         MAF        L2
+mean  0.2398   11.1843
+std   0.1419   52.5137
+min   0.0051   -3.5955
+25%   0.1155    1.1843
+50%   0.2301    2.5802
+75%   0.3609    5.1084
+max   0.5000  693.4894
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000 -0.0221
+L2  -0.0221  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    17439
+
+Summary of Annotation Matrix Row Sums
+count    493753.0000
+mean          0.0353
+std           0.1846
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:30:24 2025
+Total time elapsed: 9.0m:5.91s
+chr12
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.12 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.12 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.12.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:30:26 2025
+Read list of 480032 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.12.bim
+Read 1 annotations for 480032 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.12.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.12.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.12.bed
+After filtering, 480032 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 58540 SNPs will be printed.
+Writing LD Scores for 58540 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.12.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.12.l2.ldscore.gz
+         MAF        L2
+mean  0.2334    5.7091
+std   0.1429   23.3031
+min   0.0051   -0.7191
+25%   0.1084    1.2539
+50%   0.2209    2.6609
+75%   0.3558    5.1262
+max   0.5000  447.2757
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.0964
+L2   0.0964  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    16873
+
+Summary of Annotation Matrix Row Sums
+count    480032.0000
+mean          0.0351
+std           0.1842
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:37:29 2025
+Total time elapsed: 7.0m:2.32s
+chr13
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.13 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.13 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.13.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:37:32 2025
+Read list of 366088 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.13.bim
+Read 1 annotations for 366088 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.13.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.13.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.13.bed
+After filtering, 366088 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 45540 SNPs will be printed.
+Writing LD Scores for 45540 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.13.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.13.l2.ldscore.gz
+         MAF       L2
+mean  0.2338   3.4134
+std   0.1429   4.5301
+min   0.0051  -0.2788
+25%   0.1074   1.0827
+50%   0.2209   2.3588
+75%   0.3548   4.3644
+max   0.5000  94.0170
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1324
+L2   0.1324  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    11130
+
+Summary of Annotation Matrix Row Sums
+count    366088.0000
+mean          0.0304
+std           0.1717
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:41:12 2025
+Total time elapsed: 3.0m:39.92s
+chr14
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.14 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.14 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.14.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:41:15 2025
+Read list of 323965 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.14.bim
+Read 1 annotations for 323965 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.14.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.14.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.14.bed
+After filtering, 323965 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 39424 SNPs will be printed.
+Writing LD Scores for 39424 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.14.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.14.l2.ldscore.gz
+         MAF       L2
+mean  0.2320   3.9230
+std   0.1425   4.0713
+min   0.0051  -0.2405
+25%   0.1074   1.2454
+50%   0.2198   2.6942
+75%   0.3507   5.1989
+max   0.5000  30.7323
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1475
+L2   0.1475  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    11306
+
+Summary of Annotation Matrix Row Sums
+count    323965.0000
+mean          0.0349
+std           0.1835
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:45:04 2025
+Total time elapsed: 3.0m:48.82s
+chr15
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.15 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.15 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.15.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:45:05 2025
+Read list of 286945 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.15.bim
+Read 1 annotations for 286945 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.15.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.15.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.15.bed
+After filtering, 286945 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 35837 SNPs will be printed.
+Writing LD Scores for 35837 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.15.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.15.l2.ldscore.gz
+         MAF       L2
+mean  0.2379   3.6330
+std   0.1441   4.0849
+min   0.0051  -0.1549
+25%   0.1104   0.9220
+50%   0.2270   2.2704
+75%   0.3640   4.9272
+max   0.5000  33.2360
+
+MAF/LD Score Correlation Matrix
+       MAF     L2
+MAF  1.000  0.158
+L2   0.158  1.000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    9355
+
+Summary of Annotation Matrix Row Sums
+count    286945.0000
+mean          0.0326
+std           0.1776
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:47:24 2025
+Total time elapsed: 2.0m:18.85s
+chr16
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.16 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.16 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.16.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:47:25 2025
+Read list of 316962 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.16.bim
+Read 1 annotations for 316962 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.16.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.16.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.16.bed
+After filtering, 316962 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 36526 SNPs will be printed.
+Writing LD Scores for 36526 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.16.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.16.l2.ldscore.gz
+         MAF        L2
+mean  0.2389    3.4464
+std   0.1426    4.3606
+min   0.0051   -0.5306
+25%   0.1145    0.9766
+50%   0.2311    2.2236
+75%   0.3599    4.3574
+max   0.5000  165.4950
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1104
+L2   0.1104  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    11432
+
+Summary of Annotation Matrix Row Sums
+count    316962.0000
+mean          0.0361
+std           0.1865
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:51:35 2025
+Total time elapsed: 4.0m:9.83s
+chr17
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.17 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.17 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.17.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:51:36 2025
+Read list of 268764 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.17.bim
+Read 1 annotations for 268766 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.17.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.17.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.17.bed
+After filtering, 268764 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 32165 SNPs will be printed.
+Writing LD Scores for 32165 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.17.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.17.l2.ldscore.gz
+         MAF       L2
+mean  0.2427   3.8868
+std   0.1445   5.9688
+min   0.0051  -0.1204
+25%   0.1145   0.9174
+50%   0.2352   2.2816
+75%   0.3681   4.7804
+max   0.5000  92.3671
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1744
+L2   0.1744  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    9955
+
+Summary of Annotation Matrix Row Sums
+count    268764.0000
+mean          0.0370
+std           0.1889
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:55:22 2025
+Total time elapsed: 3.0m:45.54s
+chr18
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.18 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.18 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.18.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:55:24 2025
+Read list of 285134 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.18.bim
+Read 1 annotations for 285134 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.18.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.18.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.18.bed
+After filtering, 285134 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 35509 SNPs will be printed.
+Writing LD Scores for 35509 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.18.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.18.l2.ldscore.gz
+         MAF       L2
+mean  0.2364   3.1481
+std   0.1423   3.2791
+min   0.0051  -0.1194
+25%   0.1115   0.9902
+50%   0.2260   2.2125
+75%   0.3569   4.1612
+max   0.5000  54.0424
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1651
+L2   0.1651  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    9073
+
+Summary of Annotation Matrix Row Sums
+count    285134.0000
+mean          0.0318
+std           0.1755
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 19:57:47 2025
+Total time elapsed: 2.0m:23.55s
+chr19
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.19 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.19 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.19.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 19:57:50 2025
+Read list of 231694 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.19.bim
+Read 1 annotations for 231694 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.19.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.19.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.19.bed
+After filtering, 231694 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 22454 SNPs will be printed.
+Writing LD Scores for 22454 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.19.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.19.l2.ldscore.gz
+         MAF        L2
+mean  0.2383    5.3438
+std   0.1421   11.5269
+min   0.0051   -0.1317
+25%   0.1145    1.1039
+50%   0.2331    2.4516
+75%   0.3569    5.0901
+max   0.5000  181.0911
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.0341
+L2   0.0341  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    11262
+
+Summary of Annotation Matrix Row Sums
+count    231694.0000
+mean          0.0486
+std           0.2150
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 20:00:11 2025
+Total time elapsed: 2.0m:21.21s
+chr20
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.20 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.20 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.20.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 20:00:12 2025
+Read list of 221582 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.20.bim
+Read 1 annotations for 221582 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.20.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.20.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.20.bed
+After filtering, 221582 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 31092 SNPs will be printed.
+Writing LD Scores for 31092 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.20.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.20.l2.ldscore.gz
+         MAF       L2
+mean  0.2344   3.5449
+std   0.1427   4.5203
+min   0.0051  -0.1101
+25%   0.1074   0.9001
+50%   0.2229   2.0283
+75%   0.3558   4.1886
+max   0.5000  37.4809
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1916
+L2   0.1916  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    7851
+
+Summary of Annotation Matrix Row Sums
+count    221582.0000
+mean          0.0354
+std           0.1849
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 20:03:15 2025
+Total time elapsed: 3.0m:2.5s
+chr21
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.21 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.21 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.21.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 20:03:17 2025
+Read list of 138654 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.21.bim
+Read 1 annotations for 138654 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.21.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.21.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.21.bed
+After filtering, 138654 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 17028 SNPs will be printed.
+Writing LD Scores for 17028 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.21.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.21.l2.ldscore.gz
+         MAF       L2
+mean  0.2421   3.3988
+std   0.1414   4.3220
+min   0.0051  -0.1127
+25%   0.1186   0.7956
+50%   0.2321   1.9550
+75%   0.3650   4.1720
+max   0.5000  37.0464
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1425
+L2   0.1425  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    4827
+
+Summary of Annotation Matrix Row Sums
+count    138654.0000
+mean          0.0348
+std           0.1833
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 20:05:28 2025
+Total time elapsed: 2.0m:11.23s
+chr22
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt \
+--ld-wind-cm 1.0 \
+--out /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.22 \
+--bfile /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.22 \
+--thin-annot  \
+--annot ACx_MEIS2_GABA.hypo.dmr.bed.22.annot.gz \
+--l2  
+
+Beginning analysis at Fri Sep 12 20:05:31 2025
+Read list of 140592 SNPs from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.22.bim
+Read 1 annotations for 140592 SNPs from ACx_MEIS2_GABA.hypo.dmr.bed.22.annot.gz
+Read list of 489 individuals from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.22.fam
+Reading genotypes from /anvil/projects/x-mcb130189/rwang22/bican/ref/GRCh38/plink_files/1000G.EUR.hg38.22.bed
+After filtering, 140592 SNPs remain
+Estimating LD Score.
+Reading list of 1217311 SNPs for which to print LD Scores from /anvil/projects/x-mcb130189/rwang22/bican/ref/hm3_no_MHC.list.txt
+After merging with --print-snps, LD Scores for 17450 SNPs will be printed.
+Writing LD Scores for 17450 SNPs to /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.22.l2.ldscore.gz
+
+Summary of LD Scores in /anvil/projects/x-mcb130189/rwang22/bican/ldsc/ldscore/hypo/ACx_MEIS2_GABA.hypo.dmr.bed.22.l2.ldscore.gz
+         MAF       L2
+mean  0.2366   3.4324
+std   0.1435   4.1961
+min   0.0051  -0.1704
+25%   0.1094   0.7733
+50%   0.2280   2.0500
+75%   0.3579   4.5581
+max   0.5000  31.1968
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.2044
+L2   0.2044  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    5036
+
+Summary of Annotation Matrix Row Sums
+count    140592.0000
+mean          0.0358
+std           0.1858
+min           0.0000
+25%           0.0000
+50%           0.0000
+75%           0.0000
+max           1.0000
+Analysis finished at Fri Sep 12 20:06:30 2025
+Total time elapsed: 59.56s
